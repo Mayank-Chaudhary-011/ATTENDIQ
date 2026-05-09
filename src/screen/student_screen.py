@@ -1,6 +1,10 @@
 import streamlit as st
 
-from ui.style_base_layout import style_background_dashboard, style_base_layout
+# Change this import
+from src.ui.style_base_layout import (
+    style_background_dashboard,
+    style_base_layout,
+)
 
 from src.components.header import header_dashboard
 from src.components.footer import footer_dashboard
