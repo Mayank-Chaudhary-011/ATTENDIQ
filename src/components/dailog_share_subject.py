@@ -4,7 +4,7 @@ import io
 
 @st.dialog("Create New Link")
 def share_subject_dialog(subject_name , subject_code):
-    app_domain = "attendiq.streamlit.app/"
+    app_domain = "attendiq.streamlit.app"
     join_url = f"{app_domain}/?join-code={subject_code}"
 
 
